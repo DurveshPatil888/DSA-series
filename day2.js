@@ -37,40 +37,48 @@
 // console.log(amount);
 
 //ATM Cash Denomination Finder
-let amount = Number(prompt('Enter the amount'));
-console.log('Your Entered Amount = ' + amount);
-if (amount >= 500) {
-  console.log('Total note of 500 =' + Math.floor(amount / 500));
-  amount = amount % 500;
-}
-if (amount >= 200) {
-  console.log('Total note of 200 =' + Math.floor(amount / 200));
-  amount = amount % 200;
-}
-if (amount >= 100) {
-  console.log('Total note of 100 =' + Math.floor(amount / 100));
-  amount = amount % 100;
-}
-if (amount >= 50) {
-  console.log('Total note of 50 =' + Math.floor(amount / 50));
-  amount = amount % 50;
-}
-if (amount >= 20) {
-  console.log('Total note of 20 =' + Math.floor(amount / 20));
-  amount = amount % 20;
-}
-if (amount >= 10) {
-  console.log('Total note of 10 =' + Math.floor(amount / 10));
-  amount = amount % 10;
-}
-if (amount >= 5) {
-  console.log('Total coin of 5 =' + Math.floor(amount / 5));
-  amount = amount % 5;
-}
-if (amount >= 2) {
-  console.log('Total coin of 2 =' + Math.floor(amount / 2));
-  amount = amount % 2;
-}
-if (amount >= 1) {
-  console.log('Total coin of 1 =' + Math.floor(amount / 1));
-}
+// let amount = Number(prompt('Enter the amount'));
+// console.log('Your Entered Amount = ' + amount);
+// if (amount >= 500) {
+//   console.log('Total note of 500 =' + Math.floor(amount / 500));
+//   amount = amount % 500;
+// }
+// if (amount >= 200) {
+//   console.log('Total note of 200 =' + Math.floor(amount / 200));
+//   amount = amount % 200;
+// }
+// if (amount >= 100) {
+//   console.log('Total note of 100 =' + Math.floor(amount / 100));
+//   amount = amount % 100;
+// }
+// if (amount >= 50) {
+//   console.log('Total note of 50 =' + Math.floor(amount / 50));
+//   amount = amount % 50;
+// }
+// if (amount >= 20) {
+//   console.log('Total note of 20 =' + Math.floor(amount / 20));
+//   amount = amount % 20;
+// }
+// if (amount >= 10) {
+//   console.log('Total note of 10 =' + Math.floor(amount / 10));
+//   amount = amount % 10;
+// }
+// if (amount >= 5) {
+//   console.log('Total coin of 5 =' + Math.floor(amount / 5));
+//   amount = amount % 5;
+// }
+// if (amount >= 2) {
+//   console.log('Total coin of 2 =' + Math.floor(amount / 2));
+//   amount = amount % 2;
+// }
+// if (amount >= 1) {
+//   console.log('Total coin of 1 =' + Math.floor(amount / 1));
+// }
+
+// function isPalindrome(value) {
+//   const s = String(value)
+//     .toLowerCase()
+//     .replace(/[^a-z0-9]/g, '');
+//   return s === s.split('').reverse().join('');
+// }
+// console.log(isPalindrome(121));
